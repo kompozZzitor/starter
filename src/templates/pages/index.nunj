@@ -13,6 +13,11 @@
 	{% include '../../components/header/header.nunj' %}
 
 	<div class="container">
+		{% include '../../components/main-content/main-content.nunj' %}
+		{% include '../../components/basket/basket.nunj' %}
+	</div>
+
+	<!-- <div class="container">
 
 		<div style="padding:20px 0;">
 			{{ button({
@@ -62,12 +67,11 @@
 			<h2 style="margin-bottom: 15px;">Пример использования SVG-спрайта</h2>
 
 			{{ icon({
-				iconName: 'chat',
+				iconName: 'sp-logo',
 				className: 'icon',
-				attributes: 'viewBox="0 0 20 20" style="width: 40px; height: 40px; fill: #212121;"'
+				attributes: 'viewBox="0 0 89 32" style="width: 89px; height: 32px;"'
 			}) }}
 
 		</div>
-
-	</div>
+	</div> -->
 {% endblock content %}

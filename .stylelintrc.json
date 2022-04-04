@@ -2,7 +2,7 @@
 	"extends": ["stylelint-config-prettier"],
 	"plugins": ["stylelint-prettier"],
 	"rules": {
-		"prettier/prettier": true,
+//		"prettier/prettier": true,
 		"indentation": "tab",
 		"string-quotes": "single",
 		"color-hex-case": "upper",

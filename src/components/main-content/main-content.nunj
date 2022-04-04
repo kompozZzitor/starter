@@ -1,0 +1,63 @@
+<div class="main-content">
+
+	<div class="step-line">
+		<div class="step-line__line"></div>
+		<div class="step-line__line-blue" style="width: 64%;"></div>
+		<div class="step-line__item step-line__item-passed">
+			<div class="step-line__item-counter">1</div>
+			Account
+		</div>
+		<div class="step-line__item step-line__item-passed">
+			<div class="step-line__item-counter">2</div>
+			Shipping
+		</div>
+		<div class="step-line__item step-line__item-active">
+			<div class="step-line__item-counter">3</div>
+			Billing
+		</div>
+		<div class="step-line__item step-line__item-disabled">
+			<div class="step-line__item-counter">4</div>
+			Review
+		</div>
+	</div>
+
+
+	<div class="main-content main-content__info-block">
+		<h1 class="main-title">Billing Information</h1>
+		<form action="" method="post">
+			<div class="radio-block">
+				<input type="radio" name="radio" id="radio1" />
+				<label for="radio1">Pay with Credit Card</label>
+
+				<input type="radio" name="radio" id="radio2" />
+				<label for="radio2">
+					<img src="./assets/images/svg/paypal.svg" alt="paypal">
+				</label>
+			</div>
+
+			{% include '../../components/card/card.nunj' %}
+
+			<div class="checkbox-wrap">
+				<div class="checkbox-block">
+					<input type="checkbox" name="checkbox" id="checkbox1" />
+					<label for="checkbox1">Save information of this credit card</label>
+				</div>
+				<div class="checkbox-block">
+					<input type="checkbox" name="checkbox" id="checkbox2" />
+					<label for="checkbox2">I accept the &nbsp;<span>terms and comditions&nbsp;</span> and the &nbsp;<span>Privacy Policies</span></label>
+				</div>
+			</div>
+
+			<div class="buttons-wrap">
+				<button class="btn btn-simple">
+					Back
+				</button>
+				<button class="btn btn-blue">
+					Check Out
+				</button>
+			</div>
+
+		</form>
+	</div>
+
+</div>

@@ -1,0 +1,89 @@
+<div class="basket">
+    <div class="basket-block">
+        <div class="title">
+            My basket
+        </div>
+
+        <div class="product-card">
+            <div class="product-photo">
+                <img src="./assets/images/products/product-img-1.jpeg" alt="product">
+            </div>
+            <div class="product-info">
+                <div class="product-title">
+                    Amet minim mollit non deserunt ullamco est sit
+                </div>
+                <div class="product-buttons-block">
+                    <div class="product-buttons product-buttons__minus">
+                        <img src="./assets/images/svg/minus.svg" alt="product">
+                    </div>
+                    <div class="product-count">1</div>
+                    <div class="product-buttons product-buttons__plus">
+                        <img src="./assets/images/svg/plus.svg" alt="product">
+                    </div>
+                    <div class="product-price">
+                        <span class="product-price__cur-icon">$</span>
+                        <span class="product-price__num" data-sum="525">525</span>
+                    </div>
+                </div>
+            </div>
+            <div class="product-card__close">
+                <img src="./assets/images/svg/close.svg" alt="product">
+            </div>
+        </div>
+
+        <div class="product-card">
+            <div class="product-photo">
+                <img src="./assets/images/products/product-img-2.jpeg" alt="product">
+            </div>
+            <div class="product-info">
+                <div class="product-title">
+                    Amet minim mollit non
+                </div>
+                <div class="product-buttons-block">
+                    <div class="product-buttons product-buttons__minus">
+                        <img src="./assets/images/svg/minus.svg" alt="product">
+                    </div>
+                    <div class="product-count">1</div>
+                    <div class="product-buttons product-buttons__plus">
+                        <img src="./assets/images/svg/plus.svg" alt="product">
+                    </div>
+                    <div class="product-price">
+                        <span class="product-price__cur-icon">$</span>
+                        <span class="product-price__num" data-sum="325">325</span>
+                    </div>
+                </div>
+            </div>
+            <div class="product-card__close">
+                <img src="./assets/images/svg/close.svg" alt="product">
+            </div>
+        </div>
+
+    </div>
+    <div class="basket-block">
+        <div class="title">
+            Promo code
+        </div>
+        <div class="promo-input-block">
+            <input type="text" placeholder="Placeholder Text">
+            <button class="btn btn-blue">Apply</button>
+        </div>
+    </div>
+    <div class="basket-block basket-block__witout-border">
+        <div class="check-block">
+            <span class="check-block__text">Subtotal</span>
+            <span class="check-block__text">$1 050</span>
+        </div>
+        <div class="check-block">
+            <span class="check-block__text">Tax</span>
+            <span class="check-block__text">$100</span>
+        </div>
+        <div class="check-block">
+            <span class="check-block__text">Shipping</span>
+            <span class="check-block__text">$150</span>
+        </div>
+        <div class="check-block">
+            <span class="check-block__text text-bold">Total</span>
+            <span class="check-block__text text-bold">$1 300</span>
+        </div>
+    </div>
+</div>

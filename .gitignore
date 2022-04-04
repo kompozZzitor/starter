@@ -2,7 +2,7 @@
 .idea
 node_modules
 bower_components
-build
+#build
 *.log
 .fuse_hidden*
 build.zip

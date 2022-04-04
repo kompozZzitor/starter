@@ -1,0 +1,23 @@
+<div class="card-block">
+    <div class="input-text input-text-label__full-width">
+        <label for="cardName">Name on card</label>
+        <input type="text" name="cardName" id="cardName" placeholder="Placeholder Text" class="input__full-width"/>
+    </div>
+    <div class="card-number-block">
+        <label for="cardName1">Name on card</label>
+        <input type="number" name="cardName" id="cardName1" class="input__small"/>
+        <input type="number" name="cardName" id="cardName2" class="input__small"/>
+        <input type="number" name="cardName" id="cardName3" class="input__small"/>
+        <input type="number" name="cardName" id="cardName4" class="input__small"/>
+    </div>
+    <div class="card-date-cvv-block">
+        <div class="card-date">
+            <label for="cardName">Expire date</label>
+            <input type="text" name="cardName" id="cardName" class="input__small"/>
+        </div>
+        <div class="card-cvv">
+            <label for="cardName">CVV code</label>
+            <input type="text" name="cardName" id="cardName" class="input__small"/>
+        </div>
+    </div>
+</div>

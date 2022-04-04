@@ -1,5 +1,22 @@
 <div class="header">
-	<div class="container">
-		{{ menu() }}
+	<a href="" class="main-logo">
+		<img src="./assets/images/svg/sp-logo.svg" alt="logo">
+	</a>
+
+	{{ menu() }}
+
+	<div class="header-right-items">
+		<div class="header-right-items__search">
+			<img src="./assets/images/svg/search.svg" alt="search">
+		</div>
+
+		<div class="header-right-items__cart">
+			<img src="./assets/images/svg/basket.svg" alt="basket">
+			<div class="header-basket-count">2</div>
+		</div>
+
+		<div class="header-right-items__menu">
+			<img src="./assets/images/svg/mob-menu.svg" alt="mob-menu">
+		</div>
 	</div>
 </div>

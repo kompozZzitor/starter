@@ -3,12 +3,16 @@
 @import 'lib/base';
 @import 'fonts';
 @import 'reset';
+@import 'inputs';
 @import 'global';
 @import 'layout';
 // @import 'controls';
 
 // ======= COMPONENTS =======
 @import '../../components/header/header';
+@import '../../components/basket/basket';
+@import '../../components/card/card';
+@import '../../components/main-content/main-content';
 @import '../../components/button/button';
 
 // ======= PAGES =======
